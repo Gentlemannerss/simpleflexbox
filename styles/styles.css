@@ -1,1 +1,33 @@
 /*Schrijf hier jouw eigen CSS*/
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-2 span {
+/*ik ben gestart met een aparte flex voor de span en h2, waarom is dit niet goed en de div wel?*/
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+/*
+.container-2 h2 {
+    display: flex;
+    align-items: center;
+}
+*/
